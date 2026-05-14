@@ -1,0 +1,15 @@
+Coloca aqui los archivos del curso 3TP.
+
+Nombres esperados segun el sitio web:
+
+GUIAS:
+  guia-financiera.pdf
+  guia-porcentajes.pdf
+  guia-estadistica.pdf
+
+MATERIAL DIDACTICO:
+  apuntes-financiera.pdf
+  presentacion-porcentajes.pdf
+  apuntes-estadistica.pdf
+
+Puedes agregar mas archivos y luego actualizar el html para incluirlos.

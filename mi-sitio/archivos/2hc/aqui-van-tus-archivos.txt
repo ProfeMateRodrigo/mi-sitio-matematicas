@@ -1,0 +1,15 @@
+Coloca aqui los archivos del curso 2HC.
+
+Nombres esperados segun el sitio web:
+
+GUIAS:
+  guia-funciones.pdf
+  guia-ecuaciones.pdf
+  guia-geometria.pdf
+
+MATERIAL DIDACTICO:
+  apuntes-funciones.pdf
+  presentacion-ecuaciones.pdf
+  apuntes-geometria.pdf
+
+Puedes agregar mas archivos y luego actualizar el html para incluirlos.

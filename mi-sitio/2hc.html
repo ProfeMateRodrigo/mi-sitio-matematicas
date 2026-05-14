@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2HC — Matematicas</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f6f9; color: #333; }
+
+        header {
+            background: linear-gradient(135deg, #004d40, #00897b);
+            color: white;
+            padding: 35px 20px;
+        }
+
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .back-btn {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9em;
+            opacity: 0.8;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: opacity 0.2s;
+            white-space: nowrap;
+        }
+        .back-btn:hover { opacity: 1; }
+
+        .header-text h1 { font-size: 2em; }
+        .header-text p { font-size: 1em; opacity: 0.85; margin-top: 4px; }
+
+        nav {
+            background: #00695c;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 13px 30px;
+            font-size: 0.95em;
+            transition: background 0.2s;
+        }
+        nav a:hover { background: #004d40; }
+
+        main { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+
+        section {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        section h2 {
+            font-size: 1.3em;
+            color: #00695c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0f2f1;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .archivo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.2s;
+        }
+        .archivo:hover { background: #e0f2f1; border-color: #00897b; }
+        .archivo .icono { font-size: 1.3em; }
+        .archivo .nombre { flex: 1; font-size: 0.95em; }
+        .archivo .tipo { font-size: 0.75em; color: #888; background: #f0f0f0; padding: 2px 8px; border-radius: 10px; }
+
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #e0f2f1; color: #00695c; padding: 12px; text-align: left; font-size: 0.88em; }
+        td { padding: 12px; border-bottom: 1px solid #f0f0f0; font-size: 0.93em; }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: #fafafa; }
+
+        .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 600; }
+        .badge-prueba { background: #fce4ec; color: #c62828; }
+        .badge-entrega { background: #e8f5e9; color: #2e7d32; }
+        .badge-trabajo { background: #fff3e0; color: #e65100; }
+
+        footer { text-align: center; padding: 25px; color: #bbb; font-size: 0.83em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <a class="back-btn" href="index.html">&#8592; Volver</a>
+        <div class="header-text">
+            <h1>2HC</h1>
+            <p>Segundo Humanista-Cientifico &mdash; Matematicas</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#evaluaciones">Evaluaciones</a>
+    <a href="#guias">Guias</a>
+    <a href="#material">Material Didactico</a>
+</nav>
+
+<main>
+
+    <section id="evaluaciones">
+        <h2>&#128203; Evaluaciones</h2>
+        <a class="archivo" href="archivos/2hc/diagnostico-2hc.docx" download>
+            <span class="icono">📋</span>
+            <span class="nombre">Diagnostico — 2do nivel HC</span>
+            <span class="tipo">DOCX</span>
+        </a>
+    </section>
+
+    <section id="guias">
+        <h2>&#128196; Guias</h2>
+        <p style="color:#aaa; font-size:0.9em; padding: 10px 0;">No hay guias disponibles aun.</p>
+    </section>
+
+    <section id="material">
+        <h2>&#127891; Material Didactico</h2>
+        <p style="color:#aaa; font-size:0.9em; padding: 10px 0;">No hay material disponible aun.</p>
+    </section>
+
+</main>
+
+<footer>2HC &mdash; Matematicas &mdash; 2026</footer>
+
+</body>
+</html>

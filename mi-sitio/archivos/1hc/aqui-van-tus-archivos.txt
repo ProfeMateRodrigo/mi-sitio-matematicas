@@ -1,0 +1,14 @@
+Coloca aqui los archivos del curso 1HC.
+
+Nombres esperados segun el sitio web:
+
+GUIAS:
+  guia-numeros.pdf
+  guia-fracciones.pdf
+  guia-algebra.pdf
+
+MATERIAL DIDACTICO:
+  apuntes-numeros.pdf
+  presentacion-algebra.pdf
+
+Puedes agregar mas archivos y luego actualizar el html para incluirlos.

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematicas — Cursos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a237e, #3949ab);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 { font-size: 2.4em; margin-bottom: 10px; }
+        header p { font-size: 1.1em; opacity: 0.85; }
+
+        main {
+            flex: 1;
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        main h2 {
+            text-align: center;
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 40px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+
+        .cursos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .curso-card {
+            background: white;
+            border-radius: 14px;
+            padding: 40px 30px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.09);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-top: 5px solid;
+        }
+
+        .curso-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.14);
+        }
+
+        .curso-card.c1 { border-color: #3949ab; }
+        .curso-card.c2 { border-color: #00897b; }
+        .curso-card.c3 { border-color: #e53935; }
+
+        .curso-card .sigla {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .curso-card.c1 .sigla { color: #3949ab; }
+        .curso-card.c2 .sigla { color: #00897b; }
+        .curso-card.c3 .sigla { color: #e53935; }
+
+        .curso-card .nombre {
+            font-size: 1em;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .curso-card .secciones {
+            font-size: 0.82em;
+            color: #aaa;
+            line-height: 1.9;
+        }
+
+        .curso-card .btn-entrar {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 10px 28px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: white;
+        }
+
+        .curso-card.c1 .btn-entrar { background: #3949ab; }
+        .curso-card.c2 .btn-entrar { background: #00897b; }
+        .curso-card.c3 .btn-entrar { background: #e53935; }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #bbb;
+            font-size: 0.83em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Matematicas</h1>
+    <p>Selecciona tu curso para acceder a los materiales</p>
+</header>
+
+<main>
+    <h2>Cursos disponibles</h2>
+    <div class="cursos">
+
+        <a class="curso-card c1" href="1hc.html">
+            <div class="sigla">1HC</div>
+            <div class="nombre">Primero Humanista-Cientifico</div>
+            <div class="secciones">
+                Evaluaciones<br>
+                Guias<br>
+                Material Didactico
+            </div>
+            <div class="btn-entrar">Entrar</div>
+        </a>
+
+        <a class="curso-card c2" href="2hc.html">
+            <div class="sigla">2HC</div>
+            <div class="nombre">Segundo Humanista-Cientifico</div>
+            <div class="secciones">
+                Evaluaciones<br>
+                Guias<br>
+                Material Didactico
+            </div>
+            <div class="btn-entrar">Entrar</div>
+        </a>
+
+        <a class="curso-card c3" href="3tp.html">
+            <div class="sigla">3TP</div>
+            <div class="nombre">Tercero Tecnico-Profesional</div>
+            <div class="secciones">
+                Evaluaciones<br>
+                Guias<br>
+                Material Didactico
+            </div>
+            <div class="btn-entrar">Entrar</div>
+        </a>
+
+    </div>
+</main>
+
+<footer>
+    Matematicas &mdash; Actualizado mayo 2026
+</footer>
+
+</body>
+</html>
